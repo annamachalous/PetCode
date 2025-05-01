@@ -29,3 +29,4 @@ const menu = document.querySelector('nav ul.menu');
 menuToggle.addEventListener('click', () => {
     menu.classList.toggle('active');
 });
+
