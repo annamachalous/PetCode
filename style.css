@@ -88,6 +88,11 @@ header.scrolled {
     font-size: 3.5rem;
     margin-bottom: 1rem;
     animation: fadeIn 1.5s ease-in-out;
+
+}
+#PetCode {
+    font-family: 'Great Vibes', cursive;
+    font-size: 8rem;
 }
     .hero-content h1, .hero-content p {
         text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
@@ -165,7 +170,10 @@ header.scrolled {
 }
 
 #sobre h2 {
+
     font-size: 3.5rem; /* Aumentei o tamanho da fonte */
+
+    font-size: 3.5rem; 
     margin-bottom: 3rem;
     position: relative;
 }
@@ -183,6 +191,7 @@ header.scrolled {
 
 #sobre .content p {
     font-size: 1.4rem; /* Aumentei o tamanho da fonte */
+    font-size: 1.4rem; 
     line-height: 1.8;
     margin-bottom: 2rem;
     max-width: 800px;
@@ -295,7 +304,7 @@ header.scrolled {
         font-size: 2.5rem;
     }
 }
-/* secao objetivos */
+/* transformações */
 .objetivos-container {
         max-width: 900px;
         margin: 60px auto;
@@ -419,6 +428,14 @@ header.scrolled {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+
+    display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px 0;
+
 }
 
 .before-after {
@@ -429,12 +446,38 @@ header.scrolled {
 }
 
 .before-after img {
+
     width: 100%;
     max-width: 400px;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+
+
+    width: 320px;
+  height: auto;
+  border-radius: 15px;
+  transition: transform 0.6s ease, box-shadow 0.6s ease, filter 0.6s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
+.before-after img:hover {
+  transform: scale(1.2);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+  filter: brightness(1.1) contrast(1.05);
+  cursor: pointer;
+}
+.subtitle {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: #0a060a;
+    margin-top: -10px;
+    margin-bottom: 25px;
+    text-align: center;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    opacity: 0.8;
+}
 /* Footer */
 footer {
     background-color: var(--dark);
