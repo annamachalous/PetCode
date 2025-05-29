@@ -40,7 +40,7 @@ A proposta é criar um sistema simples, funcional e com visual fofo, que apoie O
 ## 💖 Feito com carinho por
 
 👩‍💻 [Anna Machalous](https://github.com/annamachalous)  
-👩‍💻 [Lorrane Ferreira](https://github.com/Lorrane24)  
+👩‍💻 [Lorrane Moreira](https://github.com/Lorrane24)  
 Estudantes de ADS | Apaixonadas por dados, código e causas animais 🐾
 
 ---
